@@ -8,5 +8,5 @@ var persona = {
 };
 
 for (var key in persona) {
-console.log(persona);
+console.log(key + " -> " + studenti[key]);
 }

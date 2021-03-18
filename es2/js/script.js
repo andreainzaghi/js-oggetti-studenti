@@ -15,9 +15,9 @@ var studenti = [
 },
 ];
 
-for (var key in studenti) {
-  console.log(studenti[0].nome);
-	console.log(studenti[0].cognome);
-	console.log(studenti[1].nome);
-	console.log(studenti[1].cognome);
+
+
+for (var i = 0; i < studenti.length; i++) {
+	console.log(studenti[i].nome);
+		console.log(studenti[i].cognome);
 }
